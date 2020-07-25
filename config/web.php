@@ -49,6 +49,9 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+
+                'order' => 'order/index',
+
                 'orders' => 'orders/index',
                 '<action:\w+>' => 'site/<action>',
                 '<action:\w+>/<alias:\d+>' => 'site/<action>',

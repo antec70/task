@@ -38,8 +38,6 @@ class SiteController extends Controller
 
         }
 
-
-
     }
     public function actionSearch(){
         $request = Yii::$app->request;

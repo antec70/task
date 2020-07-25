@@ -32,9 +32,7 @@ $this->title = 'Task';
     <?= $form->field($model, 'price')->label('Цена') ?>
     <?= $form->field($model, 'articul')->label('Артикул') ?>
     <?= $form->field($model, 'count')->label('Кол-во товаров') ?>
+    <?= Html::submitButton('Сохранить',['class'=>'btn btn-success']) ?>
 
-        
-
-      <?= Html::submitButton('Сохранить',['class'=>'btn btn-success']) ?>
     <?php ActiveForm::end(); ?>
 </div>
